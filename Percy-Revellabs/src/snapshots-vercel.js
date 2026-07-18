@@ -6,9 +6,6 @@ const path         = require('path');
 const projects = require('../config/projects');
 const pages    = require('../config/pages');
 
-// Usage: node src/snapshots-vercel.js <project-name>
-// Set PERCY_TOKEN in your environment before running.
-
 const projectName = process.argv[2];
 
 const project      = projects[projectName];
