@@ -1,0 +1,15 @@
+{
+  "name": "outsidevisual-maintenance",
+  "version": "1.0.0",
+  "description": "Percy visual regression snapshots for client sites",
+  "scripts": {
+    "snap:revellabs": "node src/snapshots-vercel.js revellabs",
+    "snap:figma": "npx percy upload ./src/revellabs-figma",
+    "snap:dfigma": "npx percy upload ./src/reveldesktop-figma"
+  },
+  "dependencies": {
+    "@percy/cli": "latest",
+    "@percy/puppeteer": "latest",
+    "puppeteer": "latest"
+  }
+}
