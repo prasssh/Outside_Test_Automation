@@ -1,5 +1,4 @@
-# Automation Test Scripts for Visual Tests
-
+## Automation Test Scripts for Visual Tests
 This project contains automated UI tests for the website using Puppeteer and TypeScript.
 
 ## File Structure
